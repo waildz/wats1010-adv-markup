@@ -1,1 +1,42 @@
 /* Styles for the Advanced Markup assignment. */
+body{
+  background-color: #ff5500; 
+}
+nav ul li {
+  display: inline;
+}
+.poem {
+  list-style-type:none;
+}
+#content {
+  background-color: lightgreen;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  border-style: groove;
+  border-style: double;
+  border-width: thick;
+  font-family: Arial;
+  font-style: oblique;
+  line-height: 1.7rem;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #FF0000;
+} 
+#sidebar {
+  width: 250px;
+  padding: 50px;
+  float: right;
+  border-radius: 25px;
+  background-color: lightblue;
+  box-shadow: 20px 20px 15px grey;
+  margin-right: 12px;
+}
+.bio-photo{
+  float:left;
+  padding: 15px;
+  width: 250px;
+  text-shadow: none;
+  color: #816f61;
